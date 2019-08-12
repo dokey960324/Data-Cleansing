@@ -12,9 +12,13 @@
 [Python 2.6 速查表](http://rgruet.free.fr/PQR26/PQR2.6.html)
 [Python 速查词典 from W3Cschool](https://www.w3cschool.cn/python/dict)
 
+# Books
+[Automate The Boring Stuff](https://automatetheboringstuff.com)
+
 # Application
 ## Stock
 [Python 股票分析练习 from 慕课网](https://zhuanlan.zhihu.com/p/54453306)
 [Data Project - Stock Market Analysis from Risk Analysis Monte Carlo](http://srutisj.in/2017-09-03-Stock-Market-Analysis/)
 [python股票市场分析实战](http://www.matools.com/blog/190140022)
 [python股票分析实战 from IT邦幫忙](https://ithelp.ithome.com.tw/articles/10205068?sc=iThelpR)
+
