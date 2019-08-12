@@ -14,6 +14,7 @@
 
 # Books
 [Automate The Boring Stuff](https://automatetheboringstuff.com)
+[Python 自然语言处理– 使用自然语言工具包分析文本](https://yiyibooks.cn/yiyi/nltk_python/index.html)
 
 # Application
 ## Stock
