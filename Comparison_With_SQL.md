@@ -1,28 +1,17 @@
 
 # 与SQL的比较
-
-由于许多潜在pandas用户已经熟悉SQL，这个页面旨在使用pandas给出SQL各种操作的例子。
-
-如果你对pandas比较陌生，你可能需要通过10分钟先读一下pandas。
-
-按照惯例，我们先导入pandas和numpy：
-
+先导入pandas和numpy：
 
 ```python
 import pandas as pd
-
 import numpy as np
 ```
-
 
 ```python
 url = 'https://raw.github.com/pydata/pandas/master/pandas/tests/data/tips.csv'
 tips = pd.read_csv(url)
 tips.head()
 ```
-
-
-
 
 <div>
 <table border="1" class="dataframe">
@@ -101,20 +90,14 @@ tips.head()
 
 SELECT total_bill, tip, smoker, time
 
-
 FROM tips
-
 
 LIMIT 5;
 
 在pandas中，通过給DataFrame传递列名进行列选择：
-
-
 ```python
 tips[['total_bill', 'tip', 'smoker', 'time']].head(5)
 ```
-
-
 
 
 <div>
@@ -169,7 +152,6 @@ tips[['total_bill', 'tip', 'smoker', 'time']].head(5)
 </div>
 
 
-
 如果没有说明列名，默认选择所有列
 
 ## WHERE 
@@ -178,17 +160,13 @@ tips[['total_bill', 'tip', 'smoker', 'time']].head(5)
 
 SELECT *
 
-
 FROM tips
 
-
 WHERE time = 'Dinner'
-
 
 LIMIT 5;
 
 可以以多种方式筛选DataFrames;其中最直观的使用布尔索引。
-
 
 ```python
 tips[tips['time'] == 'Dinner'].head(5)
